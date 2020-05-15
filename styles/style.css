@@ -1,0 +1,50 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin-top: 100px;
+}
+
+.container {
+  align-content: center;
+  border: 3px solid silver;
+  height: 500px;
+  margin: auto;
+  text-align: center;
+  width: 70%;
+}
+
+h1 {
+  font-size: 43px;
+  margin-top: 86px;
+}
+
+.info {
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+/* .quote-card {
+} */
+
+.quotation-mark {
+  color: #f7b616;
+}
+
+.btn {
+  background-color: #f7b616;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  outline: none;
+}
+
+.btn:active,
+.btn:focus {
+  outline: none;
+}
+
+@media (max-width: 769px) {
+  .container {
+    border: 0;
+  }
+}

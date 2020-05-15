@@ -5,9 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Get Random Jokes</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
+    <div class="container">
+      <h1>Random Joke</h1>
+      <span class="quotation-mark"
+        ><svg
+          aria-hidden="true"
+          focusable="false"
+          data-prefix="fas"
+          data-icon="quote-left"
+          class="svg-inline--fa fa-quote-left fa-w-16"
+          role="img"
+          width="40px"
+          height="40px"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 512 512"
+        >
+          <path
+            fill="currentColor"
+            d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+          ></path></svg
+      ></span>
+      <p class="quote-card info"></p>
+      <input
+        type="submit"
+        value="Get Random Joke"
+        class="btn"
+        onclick="handleGetRandomQuote()"
+      />
+    </div>
+
     <script src="app.js"></script>
   </body>
 </html>
